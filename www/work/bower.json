@@ -1,0 +1,23 @@
+{
+  "name": "work",
+  "version": "0.0.0",
+  "authors": [
+    "Insayt <bashtovyi@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*",
+    "bootstrap-sass": "^3.3.7"
+  },
+  "devDependencies": {
+    "owl-carousel": "^1.3.2"
+  }
+}
