@@ -112,6 +112,11 @@ gulp.task('fonts:build', function() {
         .pipe(gulp.dest(path.build.fonts))
 });
 
+gulp.task('fa:build', function() {
+    gulp.src(['./bower_components/font-awesome/fonts/**.*'])
+        .pipe(gulp.dest(path.build.fonts))
+});
+
 
 gulp.task('carousel-css', function() {
   gulp.src([
@@ -131,7 +136,8 @@ gulp.task('build', [
     'style:build',
     'fonts:build',
     'image:build',
-    'carousel-css'
+    'carousel-css',
+    'fa:build'
 ]);
 
 gulp.task('watch', function(){
